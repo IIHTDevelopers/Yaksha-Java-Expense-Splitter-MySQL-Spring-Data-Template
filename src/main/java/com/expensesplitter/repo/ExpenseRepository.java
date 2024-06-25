@@ -7,7 +7,7 @@ import com.expensesplitter.entity.Expense;
 
 @Repository
 public interface ExpenseRepository extends JpaRepository<Expense, Long> {
-	//  write your code to fetch all expenses paid by a specific user and it must return data in list.
+	//  write your code to fetch all expenses paid by a specific user and it must return data in the list.
 
 
 	//  write your code to fetch all expenses where a specific user is part of the sharedWith list.
