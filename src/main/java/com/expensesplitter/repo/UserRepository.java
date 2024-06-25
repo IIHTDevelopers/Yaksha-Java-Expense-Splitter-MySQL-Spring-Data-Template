@@ -7,4 +7,7 @@ import com.expensesplitter.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+  
+  // write your code for method to find all users ordered by name in ascending order
+	// and it must return data in pages
 }
